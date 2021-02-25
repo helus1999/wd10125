@@ -1,0 +1,202 @@
+@import url("reset.css");
+
+body{
+	font-family: 微軟正黑體;
+}
+.topbar{
+    background-color: #222134;
+    height: 60px;
+    min-width: 1200px;    
+    }
+.topbar ul{
+    overflow: hidden;
+}    
+
+.topbar li{
+    color: white;
+    float: left;
+    padding-left: 20px;
+    margin-top: 20px;
+  
+   }
+   .topbar a{
+    color: white;
+   }
+
+   .topbar a:hover{
+    color: lightgray;
+   }
+.topbar .item3 a{
+    color: pink;
+    font-weight: bolder;
+}
+   .topbar .logo img{
+   	height: 74px;
+   	width: 60px;
+
+   	position: absolute;
+   	left: 0;
+   	top: 0;
+}
+
+.topbar .item1{
+	padding-left: 90px;
+}
+.topbar .item8{
+	position: absolute;
+	left: 1150px;
+}
+
+.topbar button{
+	background-color: #4E84EF;
+	text-decoration: none;
+	display: block;
+    
+	
+	border-radius: 4px;
+	width: 50px;
+	height: 35px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 100%;
+    position: absolute;
+    left: 1205px; 
+    top: 10px;   
+
+}
+.wrapper{
+	height: 800px;
+}
+.banner{
+	background-color: #2483ff;
+	width: 100%;
+	height: 450px;
+	margin-top: 220px;
+	min-width: 1200px;
+	position: relative;
+}
+
+.banner h1{
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	left: 15px;
+	bottom: 225px;
+}
+
+.banner iframe{
+   position: absolute;
+   left: 235px;     
+   bottom: 205px;
+   width: 380px;
+   height: 185px;
+}
+
+.wrapper .ccc ul{
+	padding-left: 15px;
+}
+
+
+
+.ccc li{
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	background-color: white;
+	padding: 22px;
+	margin-top: 280px;
+	vertical-align: top;
+	 box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+
+	transition: all 1s;
+}
+
+.ccc li:nth-child(2){
+	margin-top: 300px;
+}
+
+.ccc li:nth-child(4){
+	margin-top: 300px;
+}
+
+
+.ccc li img{
+	width: 50px;
+	height: 50px;
+}
+
+
+
+.ccc li h2{
+	font-weight: bold;
+	padding-top: 15px;
+}
+.ccc li p{
+	padding-top: 20px;
+	font-size: 13px;
+	color: darkgray;
+}
+
+.ccc li:hover{
+	transform: rotate3d(0, 1, 0, 45deg);
+}
+
+.footer{
+	background-color: black;
+	height: 300px;
+	min-width: 1200px;
+}
+
+.leftpart{
+	display:inline-block;
+	
+}
+
+.rightpart{
+	font-family: 微軟正黑體;
+	font-size: 10px;
+	display:inline-block;
+	vertical-align: top;
+	color: white;
+	padding-left: 200px;
+	padding-top: 60px;
+	
+}
+.leftpart img{
+	display: inline-block;
+	padding-left: 200px;
+	margin-top: 80px;
+}
+.leftpart ul{
+	padding-left: 200px;
+
+}
+
+.leftpart li{
+	color: white;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.list{
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.list1{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.list2{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.ull{
+	padding-right: 50px;
+	line-height: 40px;
+}

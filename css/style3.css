@@ -1,0 +1,245 @@
+@import url("reset.css");
+
+body{
+	font-family: 微軟正黑體;
+}
+.topbar{
+    background-color: #222134;
+    height: 60px;
+    min-width: 1200px;
+    }
+.topbar ul{
+    overflow: hidden;
+}    
+
+.topbar li{
+    color: white;
+    float: left;
+    padding-left: 20px;
+    margin-top: 20px;   
+}
+
+.topbar a{
+    color: white;
+   }
+
+   .topbar a:hover{
+    color: lightgray;
+   }
+ .topbar .item6 a{
+    color: pink;
+    font-weight: bolder;
+}
+
+
+.topbar .logo img{
+   	height: 74px;
+   	width: 60px;
+
+   	position: absolute;
+   	left: 0;
+   	top: 0;
+}
+
+.topbar .item1{
+	padding-left: 90px;
+}
+.topbar .item8{
+	position: absolute;
+	left: 1150px;
+}
+
+.topbar button{
+	background-color: #4E84EF;
+	text-decoration: none;
+	display: block;
+    
+	
+	border-radius: 4px;
+	width: 50px;
+	height: 35px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 100%;
+    position: absolute;
+    left: 1205px; 
+    top: 10px;   
+
+}
+
+
+.leftside{
+	display: inline-block;
+	padding-top: 90px;
+	padding-left: 35px;
+	width: 500px;
+}
+
+.leftside h2{
+	padding-top: 30px;
+}
+.leftside h1{
+	font-size: 20px;
+	font-weight: bold;
+}
+.leftside .box1{
+	background-color: #edf3fa;
+	width: 224px;
+	height: 76px;
+	display: inline-block;
+	margin-top: 30px;
+
+}
+.leftside .box1 h2{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.leftside .box1 p{
+	padding-left: 10px;
+	color: darkgray;
+}
+.leftside .box2{
+    background-color: #edf3fa;
+	width: 224px;
+	height: 76px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.leftside .box2 h2{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.leftside .box2 p{
+	padding-left: 10px;
+	color: darkgray;
+}
+.leftside .box3{
+    background-color: #edf3fa;
+	width: 224px;
+	height: 76px;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.leftside .box3 h2{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.leftside .box3 p{
+	padding-left: 10px;
+	color: darkgray;
+}
+.leftside .box4{
+	background-color: #edf3fa;
+	width: 224px;
+	height: 76px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.leftside .box4 h2{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.leftside .box4 p{
+	padding-left: 10px;
+	color: darkgray;
+}
+
+.down input{
+	border: 1px solid lightgray;
+	width: 335px;
+	height: 45px;
+	margin-top: 15px;
+}
+
+.down button{
+	width: 125px;
+	height: 45px;
+	border: none;
+	background-color: blue;
+	cursor: pointer;
+	color: white;
+	margin-bottom: 100px;
+}
+
+.down h1{
+	margin-top: 35px;
+}
+
+
+.rightside{
+	padding-left: 110px;
+	display: inline-block;
+	/*width: 300px;
+	height: 500px;*/
+	position: relative;
+	min-width: 1200px;
+}
+.rightside img{
+	width: 570px;
+	height: 550px;
+	position: absolute;
+	bottom: 110px;
+	right: 130px;
+	
+}
+
+.footer{
+	background-color: black;
+	height: 300px;
+	min-width: 1200px;
+}
+
+.leftpart{
+	display:inline-block;
+	
+}
+
+.rightpart{
+	font-family: 微軟正黑體;
+	font-size: 10px;
+	display:inline-block;
+	vertical-align: top;
+	color: white;
+	padding-left: 200px;
+	padding-top: 60px;
+	
+}
+.leftpart img{
+	display: inline-block;
+	padding-left: 200px;
+	margin-top: 80px;
+}
+.leftpart ul{
+	padding-left: 200px;
+
+}
+
+.leftpart li{
+	color: white;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.list{
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.list1{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.list2{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.ull{
+	padding-right: 50px;
+	line-height: 40px;
+}
